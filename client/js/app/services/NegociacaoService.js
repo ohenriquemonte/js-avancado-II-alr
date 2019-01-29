@@ -22,7 +22,7 @@ class NegociacaoService {
                                 new Negociacao(new Date(objeto.data), objeto.quantidade, objeto.valor)));
                     } else {
                         console.log(xhr.responseText);
-                        reject('Não foi possível obter as negociações da semana!';
+                        reject('Não foi possível obter as negociações da semana!');
                     }
                 }
             };
